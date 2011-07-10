@@ -61,6 +61,12 @@ a:link, a:visited, a:hover {
     color: black;
 }
 
+@media screen {
+    a:hover {
+	text-decoration: underline;
+    }
+}
+
 ul li {
     list-style-type: disc;
     margin: 0.125cm 0;
