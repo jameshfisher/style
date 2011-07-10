@@ -1,0 +1,111 @@
+(cv.tex
+
+ConTeXt  ver: 2010.03.02 12:34 MKIV  fmt: 2010.3.3  int: english/english
+
+system          : cont-new loaded
+(/home/james/context/tex/texmf-context/tex/context/base/cont-new.tex
+systems         : beware: some patches loaded from cont-new.tex
+(/home/james/context/tex/texmf-context/tex/context/base/cont-new.mkiv))
+system          : cont-fil loaded
+(/home/james/context/tex/texmf-context/tex/context/base/cont-fil.tex
+loading         : ConTeXt File Synonyms
+)
+system          : cont-sys.rme loaded
+(/home/james/context/tex/texmf-context/tex/context/user/cont-sys.rme (/home/james/context/tex/texmf-context/tex/context/base/type-def.mkiv) (/home/james/context/tex/texmf-context/tex/context/base/type-lua.tex) (/home/james/context/tex/texmf-context/tex/context/base/type-siz.tex (/home/james/context/tex/texmf-context/tex/context/base/type-siz.mkiv)) (/home/james/context/tex/texmf-context/tex/context/base/type-otf.tex (/home/james/context/tex/texmf-context/tex/context/base/type-otf.mkiv)))
+system          : cv.top loaded
+%
+%	begin of optionfile
+%
+%	% runtime options files (command line driven)
+%	\unprotect
+%	% special commands, mostly for the ctx development team
+%	% feedback and basic job control
+%	% handy for special styles
+%	\startluacode
+%	document = document or { }
+%	document.arguments={
+%	}
+%	document.files={
+%	 "cv",
+%	}
+%	\stopluacode
+%	% process info
+%	\setupsystem[inputfile=cv]
+%	\setupsystem[\c!n=1,\c!m=1]
+%	% modes
+%	% options (not that important)
+%	\startsetups *runtime:options
+%	\setupoutput[pdftex]
+%	\stopsetups
+%	% styles and modules
+%	\startsetups *runtime:modules
+%	\stopsetups
+%	% done
+%	\protect \endinput
+%
+%	end of optionfile
+%
+(cv.top)
+fonts           : preloading latin modern fonts
+bodyfont        : 12pt rm is loaded
+language        : language en is active
+(/home/james/context/tex/texmf-context/tex/context/third/simplefonts/t-simplefonts.tex
+loading         : ConTeXt User Module / Simplefonts
+)
+system          : module simplefonts loaded
+systems         : begin file cv at line 39
+structure       : title @ level 2 : 0.0 -> Curriculum vitae
+structure       : subject @ level 3 : 0.0.0 -> Education
+structure       : subject @ level 3 : 0.0.0 -> Other achievements
+structure       : subject @ level 3 : 0.0.0 -> Previous work positions
+structure       : subject @ level 3 : 0.0.0 -> Skills
+fonts           : resetting map file list
+{/home/james/context/tex/texmf-context/fonts/map/pdftex/context/original-empty.map}
+fonts           : using map file: original-base
+{/home/james/context/tex/texmf-context/fonts/map/pdftex/context/original-base.map}
+fonts           : using map file: original-ams-base
+{/home/james/context/tex/texmf-context/fonts/map/pdftex/context/original-ams-base.map}
+fonts           : using map file: original-ams-euler
+{/home/james/context/tex/texmf-context/fonts/map/pdftex/context/original-ams-euler.map}
+fonts           : using map file: original-public-lm
+{/home/james/context/tex/texmf-context/fonts/map/pdftex/context/original-public-lm.map}
+fonts           : using map file: lm-math
+{/home/james/context/tex/texmf/fonts/map/dvips/lm/lm-math.map}
+fonts           : using map file: lm-rm
+{/home/james/context/tex/texmf/fonts/map/dvips/lm/lm-rm.map}
+!pages          : flushing realpage 1, userpage 1, subpage 1
+structure       : subject @ level 3 : 0.0.0 -> Personal
+todo            : erase note backup
+todo            : save note data
+columns         : balanced in 5 step(s)
+todo            : restore note data
+!pages          : flushing realpage 2, userpage 2
+systems         : end file cv at line 189
+system          : cont-err loaded
+(/home/james/context/tex/texmf-context/tex/context/base/cont-err.tex
+systems         : no file 'cont-sys.tex', using 'cont-sys.rme' instead
+) ){/home/james/context/tex/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/fonts/truetype/GenBasI.ttf></home/james/context/tex/texmf/fonts/truetype/public/gentium/GenBasB.ttf></usr/share/fonts/truetype/GenBasR.ttf></home/james/context/tex/texmf/fonts/type1/public/lm/lmsy10.pfb></home/james/context/tex/texmf/fonts/type1/hoekwater/mflogo/logo10.pfb>
+mkiv lua stats : used config path          - /home/james/context/tex/texmf/web2c/texmf.cnf
+mkiv lua stats : used cache path           - /home/james/context/tex/texmf-cache
+mkiv lua stats : input load time           - 0.085 seconds
+mkiv lua stats : stored bytecode data      - 204 modules, 49 tables, 253 chunks
+mkiv lua stats : loaded tex modules        - 1 requested, 1 found (*-simplefonts), 0 missing
+mkiv lua stats : node list callback tasks  - 6 unique task lists, 6 instances (re)created, 4422 calls
+mkiv lua stats : cleaned up reserved nodes - 25 nodes, 9 lists of 1417
+mkiv lua stats : node memory usage         - 20 glue_spec
+mkiv lua stats : h-node processing time    - 0.172 seconds including kernel
+mkiv lua stats : used backend              - pdf (backend for directly generating pdf output)
+mkiv lua stats : loaded patterns           - en:us:pat:exc:2
+mkiv lua stats : language load time        - 0.056 seconds , n=2
+mkiv lua stats : startup time              - 1.427 seconds including runtime option file processing
+mkiv lua stats : callbacks                 - direct: 6287, indirect: 4754, total: 11041
+mkiv lua stats : lxml preparation time     - 0.000 seconds, 0 nodes, 15 lpath calls, 0 cached calls
+mkiv lua stats : v-node processing time    - 0.057 seconds 
+mkiv lua stats : result saved in file      - cv.pdf
+mkiv lua stats : loaded fonts              - 42 files: lmmono10-regular.otf lmmono12-regular.otf lmmono8-regular.otf lmmono9-regular.otf lmroman10-bold.otf lmroman10-regular.otf lmroman12-bold.otf lmroman12-regular.otf lmroman7-bold.otf lmroman7-regular.otf lmroman9-bold.otf lmroman9-regular.otf lmsans10-regular.otf lmsans12-regular.otf lmsans8-regular.otf lmsans9-regular.otf eufb10.tfm eufb7.tfm eufm10.tfm eufm7.tfm msam10.tfm msam7.tfm msbm10.tfm msbm7.tfm lmex10.tfm lmmi10.tfm lmmi12.tfm lmmi7.tfm lmmi9.tfm lmmib10.tfm lmmib7.tfm lmsy10.tfm lmsy7.tfm lmsy9.tfm rm-lmr10.tfm rm-lmr12.tfm rm-lmr7.tfm rm-lmr9.tfm logo10.tfm genbasb.ttf genbasi.ttf genbasr.ttf
+mkiv lua stats : fonts load time           - 1.343 seconds 
+mkiv lua stats : luatex banner             - this is luatex, version beta-0.50.0-2009122519
+mkiv lua stats : control sequences         - 31971 of 165536
+mkiv lua stats : current memory usage      - 63 MB (ctx: 65 MB)
+mkiv lua stats : runtime                   - 5.812 seconds, 1 processed pages, 2 shipped pages, 0.344 pages/second
+

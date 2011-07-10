@@ -1,0 +1,40 @@
+%
+% loaded files: 1
+%
+% > cv 1
+%
+% temporary files: 0
+%
+%
+% commands: 26
+%
+\thisissectionseparator{-}%
+\thisisutilityversion{2006.09.21}%
+\thisisbytesequence{}%
+\twopassentry{list}{1}{1::1:3:n:0}%
+\twopassentry{list}{2}{2::1:3:n:0}%
+\twopassentry{list}{3}{3::1:3:n:0}%
+\twopassentry{list}{4}{4::1:3:n:0}%
+\usedmapfile{=}{original-base}%
+\usedmapfile{=}{lm-math}%
+\usedmapfile{=}{lm-rm}%
+\usedmapfile{=}{texnansi-base}%
+\usedmapfile{=}{ec-base}%
+\usedmapfile{=}{qx-base}%
+\usedmapfile{=}{t5-base}%
+\usedmapfile{=}{8r-base}%
+\usedmapfile{=}{original-ams-base}%
+\usedmapfile{=}{original-ams-euler}%
+\usedmapfile{=}{original-public-lm}%
+\twopassentry{list}{5}{5::1:4:n:0}%
+\initializevariable\currentstrategypass{1}%
+\initializevariable\totalnofpositions{0}%
+\initializevariable\usedcolorchannels{}%
+\initializevariable\lastpage{2}%
+\initializevariable\lastpagenumber{2}%
+\initializevariable\totalnofMPgraphics{0}%
+\initializevariable\totalnofparbackgrounds{0}%
+%
+% programs: 0
+%
+\endinput
