@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-size: 16pt;
-    padding: 2.5cm 0 0.25cm 0; /* not margin; want to ensure it's pushed down from top of page */
+    padding: 1.5cm 0 0.25cm 0; /* not margin; want to ensure it's pushed down from top of page */
     line-height: 1cm;
 }
 
