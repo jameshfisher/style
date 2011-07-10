@@ -21,10 +21,13 @@ h2 {
     line-height: 1cm;
 }
 
-th {
-    text-align: left;
+h1, h2, strong, b, th {
     font-family: "Minion Pro SmBd";
     font-weight: bold;
+}
+
+th {
+    text-align: left;
 }
 
 td, th {
@@ -33,11 +36,6 @@ td, th {
 
 p {
     margin: 0.125cm 0;
-}
-
-strong, b {
-    font-family: "Minion Pro SmBd";
-    font-weight: bold;
 }
 
 em, i {
