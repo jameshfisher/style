@@ -72,6 +72,9 @@ ul li {
     margin: 0.125cm 0;
 }
 
+ul.listTable {
+    overflow: auto;
+}
 ul.listTable li {
     float: left;
     width: 25%;
@@ -83,8 +86,6 @@ ul.listTable li {
 ul.inside {
     list-style-position: inside;
 }
-
-div.clear { clear: both; }
 
 div.twoCol {
     /* doesn't work in print in webkit -- bah */
