@@ -55,7 +55,7 @@ sup {
 }
 
 table.firstColFixedWidth td:first-child, table.firstColFixedWidth th:first-child {
-    width: 3.5cm;
+    width: 2.5cm;
 }
 
 a:link, a:visited, a:hover {
