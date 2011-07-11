@@ -1,5 +1,5 @@
-cv.css: src/cv.styl
-	stylus --compress < src/cv.styl > cv.css
+css/cv.css: src/cv.styl
+	stylus --compress < src/cv.styl > css/cv.css
 
 compress:
 	pdf2ps cv.pdf tmp.ps
