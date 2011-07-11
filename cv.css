@@ -1,139 +1,26 @@
-/* The following is basically designed for print.
-   It should still be pretty enough on the web, though. */
+body{font-family:"Minion Pro","Crimson";width:17cm;margin:0 auto;font-size:10.5pt;line-height:.5cm}
+h1{font-size:16pt;padding:1.5cm 0 .25cm 0;line-height:1cm}
+h2{font-size:14pt;margin:.5cm 0 .25cm 0;line-height:1cm}
+h1,h2,strong,b,th{font-family:"Minion Pro SmBd";font-weight:bold}
+th{text-align:left}
+td,th{padding:.125cm 1em .125cm 0}
+p{margin:.125cm 0}
+em,i{font-style:italic}
+sup{position:relative;top:-.5em;font-size:80%}
+.normalWeight{font-family:"Minion Pro";font-weight:normal}
+table.firstColFixedWidth td:first-child,table.firstColFixedWidth th:first-child{width:2.5cm}
+a:link,a:visited,a:hover{text-decoration:none;color:#000}
+@media screen{ahover{text-decoration:underline}
+}ul li{list-style-type:disc;margin:.125cm 0}
+ul.listTable{overflow:auto}
+ul.listTable li{float:left;width:25%;height:.5cm;text-align:center;list-style-type:none}
+ul.inside{list-style-position:inside}
+div.twoCol{column-count:2;-moz-column-count:2;-webkit-column-count:2;column-gap:1cm;-moz-column-gap:1cm;-webkit-column-gap:1cm}
+span.TeX sub,span.LaTeX sub{position:relative;top:.2em;margin-left:-.1em}
+span.LaTeX sup{position:relative;font-size:80%;top:-.3em;margin-left:-.3em}
+@page{margin:2cm 2cm 0 2cm}
+div.endNote{font-style:italic;text-align:center;margin:1cm 0}
+@media screen{div.endNote{display:none}
+}@media print{.screen{display:none}
+}a#pdf{position:fixed;bottom:.5cm;right:1cm}
 
-body {
-    font-family: "Minion Pro", "Crimson";
-    width: 17cm;
-    margin: 0 auto;
-    font-size: 10.5pt;
-    line-height: 0.5cm;
-}
-
-h1 {
-    font-size: 16pt;
-    padding: 1.5cm 0 0.25cm 0; /* not margin; want to ensure it's pushed down from top of page */
-    line-height: 1cm;
-}
-
-h2 {
-    font-size: 14pt;
-    margin: 0.5cm 0 0.25cm 0;
-    line-height: 1cm;
-}
-
-h1, h2, strong, b, th {
-    font-family: "Minion Pro SmBd";
-    font-weight: bold;
-}
-
-th {
-    text-align: left;
-}
-
-td, th {
-    padding: 0.125cm 1em 0.125cm 0;
-}
-
-p {
-    margin: 0.125cm 0;
-}
-
-em, i {
-    font-style: italic;
-}
-
-sup {
-    position: relative; top: -0.5em; font-size: 80%;
-    /* thanks http://stackoverflow.com/questions/501671/superscript-in-css-only */
-}
-
-.normalWeight {
-    font-family: "Minion Pro";
-    font-weight: normal;
-}
-
-table.firstColFixedWidth td:first-child, table.firstColFixedWidth th:first-child {
-    width: 2.5cm;
-}
-
-a:link, a:visited, a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-@media screen {
-    a:hover {
-	text-decoration: underline;
-    }
-}
-
-ul li {
-    list-style-type: disc;
-    margin: 0.125cm 0;
-}
-
-ul.listTable {
-    overflow: auto;
-}
-ul.listTable li {
-    float: left;
-    width: 25%;
-    height: 0.5cm;
-    text-align: center;
-    list-style-type: none;
-}
-
-ul.inside {
-    list-style-position: inside;
-}
-
-div.twoCol {
-    /* doesn't work in print in webkit -- bah */
-    column-count: 2;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-gap: 1cm;
-    -moz-column-gap: 1cm;
-    -webkit-column-gap: 1cm;
-}
-
-span.TeX sub, span.LaTeX sub {
-    position: relative;
-    top: 0.2em;
-    margin-left: -0.1em;
-}
-
-span.LaTeX sup {
-    position: relative;
-    font-size: 80%;
-    top: -0.3em;
-    margin-left: -0.3em;
-}
-
-
-@page {
-    margin: 2cm 2cm 0 2cm;
-    /* hack to get stuff on two pages */
-}
-
-div.endNote {
-    font-style: italic;
-    text-align: center;
-    margin: 1cm 0;
-}
-
-@media screen {
-    div.endNote {
-	display: none;
-    }
-}
-
-@media print {
-    .screen { display: none; }
-}
-
-a#pdf {
-    position: fixed;
-    bottom: 0.5cm;
-    right: 1cm;
-}
