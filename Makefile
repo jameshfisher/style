@@ -1,7 +1,7 @@
 CSSES = css/reset.css css/common.css css/print.css css/screen.css
 
 TOCSS = stylus --compress
-TOPDF = wkhtmltopdf --print-media-type
+TOPDF = wkhtmltopdf --print-media-type --margin-top 2cm --margin-right 2cm --margin-bottom 0 --margin-left 2cm
 
 fromscratch: clean all
 
