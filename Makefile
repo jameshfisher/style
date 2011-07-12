@@ -1,23 +1,27 @@
 CSSES = css/reset.css css/common.css css/print.css css/screen.css
 
+TOCSS = stylus --compress
+TOPDF = wkhtmltopdf --print-media-type
+
+fromscratch: clean all
+
 all: $(CSSES) cv.pdf
 
 css/reset.css: src/reset.styl
-	stylus --compress < $^ > $@
+	$(TOCSS) < $^ > $@
 
 css/common.css: src/common.styl
-	stylus --compress < $^ > $@
+	$(TOCSS) < $^ > $@
 
 css/print.css: src/print.styl src/cv.styl
-	cat $^ | stylus --compress > $@
+	cat $^ | $(TOCSS) > $@
 
 css/screen.css: src/screen.styl src/cv.styl
-	cat $^ | stylus --compress > $@
+	cat $^ | $(TOCSS) > $@
 
 cv.pdf: index.html $(CSSES)
-	wkhtmltopdf --print-media-type index.html cv.pdf
+	$(TOPDF) index.html cv.pdf
 
 clean:
 	rm $(CSSES) cv.pdf
 
-fromscratch: clean all
