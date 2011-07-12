@@ -1,0 +1,16 @@
+@media print{.screen{display:none}
+@page{margin:2cm 2cm 0 2cm}
+}@media screen{.print{display:none}
+}body{font-family:"Minion Pro","Crimson";margin:0 auto}
+em,i{font-style:italic}
+.normalWeight{font-family:"Minion Pro";font-weight:normal}
+a:link,a:visited,a:hover{text-decoration:none;color:#000}
+@media screen{ahover{text-decoration:underline}
+}h1,h2,strong,b,th{font-family:"Minion Pro SmBd";font-weight:bold}
+th{text-align:left}
+ul.listTable{overflow:auto}
+ul.inside{list-style-position:inside}
+sup{position:relative;top:-.5em;font-size:80%}
+span.TeX sub,span.LaTeX sub{position:relative;top:.2em;margin-left:-.1em}
+span.LaTeX sup{position:relative;font-size:80%;top:-.3em;margin-left:-.3em}
+

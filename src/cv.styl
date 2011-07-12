@@ -1,110 +1,60 @@
+vendor(prop, args)
+  -webkit-{prop} args
+  -moz-{prop} args
+  {prop} args
+
+column-count(count)
+  vendor('column-count', count)
+
+
 body
-  font-family "Minion Pro", "Crimson"
-  width 17cm
-  margin 0 auto
-  font-size 10.5pt
-  line-height 0.5cm
+  font-size pts(10.5)
+  width cms(17)
+
+body
+  line-height cms(0.5)
 
 h1
-  font-size 16pt
-  padding 1.5cm 0 0.25cm 0
+  font-size pts(16)
+  padding cms(1.5) 0 cms(0.25) 0
   line-height 1cm
 
 h2
-  font-size 14pt
-  margin 0.5cm 0 0.25cm 0
-  line-height 1cm
-
-h1, h2, strong, b, th
-  font-family "Minion Pro SmBd"
-  font-weight bold
-
-th
-  text-align left
+  font-size pts(14)
+  margin cms(0.5) 0 cms(0.25) 0
+  line-height cms(1)
 
 td, th
-  padding 0.125cm 1em 0.125cm 0
+  padding cms(0.125) 1em cms(0.125) 0
 
 p
-  margin 0.125cm 0
+  margin cms(0.125) 0
 
-em, i
-  font-style italic
-
-sup
-  position relative
-  top -0.5em
-  font-size 80%
-
-.normalWeight
-  font-family "Minion Pro"
-  font-weight normal
 
 table.firstColFixedWidth td:first-child, table.firstColFixedWidth th:first-child
-  width 2.5cm
-
-a:link, a:visited, a:hover
-  text-decoration none
-  color black
-
-@media screen
-  ahover
-    text-decoration underline
+  width cms(2.5)
 
 ul li
   list-style-type disc
-  margin 0.125cm 0
-
-ul.listTable
-  overflow auto
+  margin cms(0.125) 0
 
 ul.listTable li
   float left
   width 25%
-  height 0.5cm
+  height cms(0.5)
   text-align center
   list-style-type none
 
-ul.inside
-  list-style-position inside
-
 div.twoCol
   column-count 2
-  -moz-column-count 2
-  -webkit-column-count 2
-  column-gap 1cm
-  -moz-column-gap 1cm
-  -webkit-column-gap 1cm
-
-span.TeX sub, span.LaTeX sub
-  position relative
-  top 0.2em
-  margin-left -0.1em
-
-span.LaTeX sup
-  position relative
-  font-size 80%
-  top -0.3em
-  margin-left -0.3em
-
-@page
-  margin 2cm 2cm 0 2cm
+  column-gap cms(1)
 
 div.endNote
   font-style italic
   text-align center
-  margin 1cm 0
-
-@media screen
-  div.endNote
-    display none
-
-@media print
-  .screen
-    display none
+  margin cms(1) 0
 
 a#pdf
   position fixed
-  bottom 0.5cm
-  right 1cm
-
+  bottom cms(0.5)
+  right cms(1)
