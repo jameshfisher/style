@@ -5,7 +5,7 @@
 em,i{font-style:italic}
 .normalWeight{font-family:"Minion Pro";font-weight:normal}
 a:link,a:visited,a:hover{text-decoration:none;color:#000}
-@media screen{ahover{text-decoration:underline}
+@media screen{a:hover{text-decoration:underline}
 }h1,h2,strong,b,th{font-family:"Minion Pro SmBd";font-weight:bold}
 th{text-align:left}
 ul.listTable{overflow:auto}
