@@ -1,6 +1,6 @@
 CSSES = css/reset.css css/common.css css/print.css css/screen.css
 
-all: $(CSSES)
+all: $(CSSES) cv.pdf
 
 css/reset.css: src/reset.styl
 	stylus --compress < $^ > $@
@@ -14,10 +14,10 @@ css/print.css: src/print.styl src/cv.styl
 css/screen.css: src/screen.styl src/cv.styl
 	cat $^ | stylus --compress > $@
 
-compress:
-	pdf2ps cv.pdf tmp.ps
-	ps2pdf tmp.ps cv.pdf
-	rm tmp.ps
+cv.pdf: index.html $(CSSES)
+	wkhtmltopdf --print-media-type index.html cv.pdf
 
 clean:
-	rm $(CSSES)
+	rm $(CSSES) cv.pdf
+
+fromscratch: clean all
