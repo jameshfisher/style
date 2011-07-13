@@ -5,6 +5,7 @@ h2{font-size:.4938968461158541cm;margin:.5cm 0 .25cm 0;line-height:1cm}
 td,th{padding:.125cm 1em .125cm 0}
 p{margin:.125cm 0}
 table.firstColFixedWidth td:first-child,table.firstColFixedWidth th:first-child{width:2.5cm}
+table.aLevelTable td:first-child,table.aLevelTable th:first-child{width:1cm}
 ul li{list-style-type:disc;margin:.125cm 0}
 ul.listTable li{float:left;width:33%;height:.5cm;text-align:center;list-style-type:none}
 div.twoCol{-webkit-column-count:2;-moz-column-count:2;column-count:2;column-gap:1cm}
