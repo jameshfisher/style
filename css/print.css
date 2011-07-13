@@ -1,6 +1,6 @@
-body{font-size:.37042263458689056cm;width:17cm}
-body{line-height:.5cm}
-h1{font-size:.564453538418119cm;padding:1cm 0 .25cm 0;line-height:1cm}
+body{font-size:.37042263458689056cm;width:17cm;line-height:.5cm;margin:2cm auto 0 auto}
+@media print{body{margin-top:0}
+}h1{font-size:.564453538418119cm;padding:1cm 0 .25cm 0;line-height:1cm}
 h2{font-size:.4938968461158541cm;margin:.5cm 0 .25cm 0;line-height:1cm}
 td,th{padding:.125cm 1em .125cm 0}
 p{margin:.125cm 0}
@@ -9,6 +9,6 @@ table.aLevelTable td:first-child,table.aLevelTable th:first-child{width:1cm}
 ul li{list-style-type:disc;margin:.125cm 0}
 ul.listTable li{float:left;width:33%;height:.5cm;text-align:center;list-style-type:none}
 ul.inside{margin-left:.4cm}
-div.twoCol{-webkit-column-count:2;-moz-column-count:2;column-count:2;column-gap:1cm}
-div.endNote{font-style:italic;text-align:center;margin:1cm 0}
+p.profile{margin-top:.5cm}
+div.endNote{font-style:italic;text-align:center;margin:2cm 0}
 

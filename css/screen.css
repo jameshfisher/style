@@ -1,6 +1,6 @@
-body{font-size:16px;width:734.2963809523809px}
-body{line-height:21.59695238095238px}
-h1{font-size:24.38095238095238px;padding:43.19390476190476px 0 10.79847619047619px 0;line-height:1cm}
+body{font-size:16px;width:734.2963809523809px;line-height:21.59695238095238px;margin:86.38780952380952px auto 0 auto}
+@media print{body{margin-top:0}
+}h1{font-size:24.38095238095238px;padding:43.19390476190476px 0 10.79847619047619px 0;line-height:1cm}
 h2{font-size:21.333333333333332px;margin:21.59695238095238px 0 10.79847619047619px 0;line-height:43.19390476190476px}
 td,th{padding:5.399238095238095px 1em 5.399238095238095px 0}
 p{margin:5.399238095238095px 0}
@@ -9,6 +9,6 @@ table.aLevelTable td:first-child,table.aLevelTable th:first-child{width:43.19390
 ul li{list-style-type:disc;margin:5.399238095238095px 0}
 ul.listTable li{float:left;width:33%;height:21.59695238095238px;text-align:center;list-style-type:none}
 ul.inside{margin-left:17.277561904761907px}
-div.twoCol{-webkit-column-count:2;-moz-column-count:2;column-count:2;column-gap:43.19390476190476px}
-div.endNote{font-style:italic;text-align:center;margin:43.19390476190476px 0}
+p.profile{margin-top:21.59695238095238px}
+div.endNote{font-style:italic;text-align:center;margin:86.38780952380952px 0}
 

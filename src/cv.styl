@@ -10,9 +10,12 @@ column-count(count)
 body
   font-size pts(10.5)
   width cms(17)
-
-body
   line-height cms(0.5)
+  margin cms(2) auto 0 auto
+
+@media print
+  body
+    margin-top 0
 
 h1
   font-size pts(16)
@@ -52,11 +55,10 @@ ul.inside
   margin-left cms(0.4)
 
 
-div.twoCol
-  column-count 2
-  column-gap cms(1)
+p.profile
+  margin-top cms(0.5)
 
 div.endNote
   font-style italic
   text-align center
-  margin cms(1) 0
+  margin cms(2) 0
