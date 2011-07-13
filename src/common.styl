@@ -16,6 +16,15 @@ body
 em, i
   font-style italic
 
+q:before
+  content "‘"
+q:after
+  content "’"
+q q:before
+  content "“"
+q q:after
+  content "”"
+
 .normalWeight
   font-family "Minion Pro"
   font-weight normal
