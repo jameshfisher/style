@@ -3,6 +3,10 @@
 }@media screen{.print{display:none}
 }body{font-family:"Minion Pro","Crimson";margin:0 auto}
 em,i{font-style:italic}
+q:before{content:"‘"}
+q:after{content:"’"}
+q q:before{content:"“"}
+q q:after{content:"”"}
 .normalWeight{font-family:"Minion Pro";font-weight:normal}
 a:link,a:visited,a:hover{text-decoration:none;color:#000}
 @media screen{a:hover{text-decoration:underline}
