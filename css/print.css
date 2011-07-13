@@ -6,7 +6,7 @@ td,th{padding:.125cm 1em .125cm 0}
 p{margin:.125cm 0}
 table.firstColFixedWidth td:first-child,table.firstColFixedWidth th:first-child{width:2.5cm}
 ul li{list-style-type:disc;margin:.125cm 0}
-ul.listTable li{float:left;width:25%;height:.5cm;text-align:center;list-style-type:none}
+ul.listTable li{float:left;width:33%;height:.5cm;text-align:center;list-style-type:none}
 div.twoCol{-webkit-column-count:2;-moz-column-count:2;column-count:2;column-gap:1cm}
 div.endNote{font-style:italic;text-align:center;margin:1cm 0}
 
