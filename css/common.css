@@ -13,7 +13,6 @@ a:link,a:visited,a:hover{text-decoration:none;color:#000}
 }h1,h2,strong,b,th{font-family:"Minion Pro SmBd";font-weight:bold}
 th{text-align:left}
 ul.listTable{overflow:auto}
-ul.inside{list-style-position:inside}
 sup{position:relative;top:-.5em;font-size:80%}
 span.TeX sub,span.LaTeX sub{position:relative;top:.2em;margin-left:-.1em}
 span.LaTeX sup{position:relative;font-size:80%;top:-.3em;margin-left:-.3em}
