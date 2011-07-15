@@ -18,7 +18,4 @@ span.TeX sub,span.LaTeX sub{position:relative;top:.2em;margin-left:-.1em}
 span.LaTeX sup{position:relative;font-size:80%;top:-.3em;margin-left:-.3em}
 a#pdf{position:fixed;bottom:.5cm;right:1cm;opacity:.5;-webkit-transition:opacity .5s linear}
 a#pdf:hover{opacity:1}
-div#show_grid{position:fixed;top:0;left:0;width:21px;height:21px;background-image:url("../images/21px.png")}
-div#show_grid:hover ~ div.wrapper{background-image:url("../images/21px.png");background-repeat:repeat}
-@media print{div#show_grid{display:none}
-}
+
