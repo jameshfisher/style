@@ -23,7 +23,7 @@ cv.pdf: index.html $(CSSES)
 	$(TOPDF) index.html cv.pdf
 
 clean:
-	rm $(CSSES) cv.pdf
+	rm -f $(CSSES) cv.pdf
 
 spellcheck:
 	aspell --lang=en_US --mode=html --personal="./aspell_exceptions.pws" check index.html

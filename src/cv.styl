@@ -7,15 +7,16 @@ column-count(count)
   vendor('column-count', count)
 
 
-body
+body section.content
   font-size pts(10.5)
   width cms(17)
   line-height cms(0.5)
-  margin cms(2) auto cms(2) auto
+  margin 0 auto
+  padding cms(2) 0
 
 @media print
-  body
-    margin-top 0
+  body section.content
+    padding-top 0
 
 h1
   font-size pts(16)

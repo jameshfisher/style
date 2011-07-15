@@ -10,6 +10,7 @@
     display none
 
 body
+  margin 0
   font-family "Minion Pro", "Crimson"
 
 em, i
@@ -73,3 +74,19 @@ a#pdf
 
 a#pdf:hover
   opacity 1
+
+div#show_grid
+  position fixed
+  top 0
+  left 0
+  width 21px
+  height 21px
+  background-image url("../images/21px.png")
+
+div#show_grid:hover ~ div.wrapper
+  background-image url("../images/21px.png")
+  background-repeat repeat
+
+@media print
+  div#show_grid
+    display none
