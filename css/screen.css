@@ -11,4 +11,7 @@ ul.listTable li{float:left;width:33%;height:21px;text-align:center;list-style-ty
 ul.inside{margin-left:17px}
 p.profile{margin-top:21px}
 div.endNote{font-style:italic;text-align:center;margin:86px 0}
+div.addresses{overflow:auto}
+div.recipientAddress{width:215px;float:left}
+div.senderAddress{width:215px;float:right}
 
