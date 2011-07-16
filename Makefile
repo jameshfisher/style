@@ -1,29 +1,20 @@
-CSSES = css/reset.css css/common.css css/print.css css/screen.css
+CSSES = reset.css common.css print.css screen.css
 
 TOCSS = stylus --compress
-TOPDF = wkhtmltopdf --print-media-type --margin-top 2cm --margin-right 0 --margin-bottom 0 --margin-left 0
 
-fromscratch: clean all
+all: $(CSSES)
 
-all: $(CSSES) cv.pdf
-
-css/reset.css: src/reset.styl
+reset.css: src/reset.styl
 	$(TOCSS) < $^ > $@
 
-css/common.css: src/common.styl
+common.css: src/common.styl
 	$(TOCSS) < $^ > $@
 
-css/print.css: src/print.styl src/cv.styl
+print.css: src/print.styl src/cv.styl
 	cat $^ | $(TOCSS) > $@
 
-css/screen.css: src/screen.styl src/cv.styl
+screen.css: src/screen.styl src/cv.styl
 	cat $^ | $(TOCSS) > $@
-
-cv.pdf: index.html $(CSSES)
-	$(TOPDF) index.html cv.pdf
 
 clean:
-	rm -f $(CSSES) cv.pdf
-
-spellcheck:
-	aspell --lang=en_US --mode=html --personal="./aspell_exceptions.pws" check index.html
+	rm -f $(CSSES)
