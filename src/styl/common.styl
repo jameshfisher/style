@@ -10,16 +10,17 @@ column-count(count)
 
 bodyem = 3.70416667 // font height in mm, so we can express measurements in mm
 
-
-
-
 @media print
+  body
+    font-size 10.5pt
   .screen
     display none
   @page
     margin 2cm 2cm 0 2cm
 
 @media screen
+  body
+    font-size 16px
   .print
     display none
 
