@@ -4,6 +4,7 @@ h1{font-size:1em}
 .wrap{overflow:auto}
 .referee{float:left;margin-right:1em}
 .close .signoff,.close .name{margin-top:5em}
-div.addresses{overflow:auto}
-div.recipientAddress{width:13.498312698764172em;float:left}
-div.senderAddress{width:13.498312698764172em;float:right}
+div.addresses{overflow:auto;margin-top:10.798650159011338em}
+div.recipientAddress{float:left}
+div.senderAddress{float:right}
+div.sentDate{margin-top:1.3498312698764172em}
