@@ -1,19 +1,19 @@
-CSSES = reset.css common.css print.css screen.css
+CSSES = css/reset.css css/common.css css/print.css css/screen.css
 
 TOCSS = stylus --compress
 
 all: $(CSSES)
 
-reset.css: src/reset.styl
+css/reset.css: src/styl/reset.styl
 	$(TOCSS) < $^ > $@
 
-common.css: src/common.styl
+css/common.css: src/styl/common.styl
 	$(TOCSS) < $^ > $@
 
-print.css: src/print.styl src/cv.styl
+css/print.css: src/styl/print.styl src/styl/cv.styl
 	cat $^ | $(TOCSS) > $@
 
-screen.css: src/screen.styl src/cv.styl
+css/screen.css: src/styl/screen.styl src/styl/cv.styl
 	cat $^ | $(TOCSS) > $@
 
 clean:
