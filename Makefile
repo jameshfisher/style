@@ -1,17 +1,14 @@
-CSSES = css/reset.css css/common.css css/letter.css
+CSSES = css/common.css css/letter.css
 
 TOCSS = stylus --compress
 
 all: $(CSSES)
 
-css/reset.css: src/styl/reset.styl
-	$(TOCSS) < $^ > $@
-
 css/common.css: src/styl/common.styl
-	$(TOCSS) < $^ > $@
+	$(TOCSS) $^ -o css
 
 css/letter.css: src/styl/letter.styl
-	$(TOCSS) < $^ > $@
+	$(TOCSS) $^ -o css
 
 clean:
 	rm -f $(CSSES)

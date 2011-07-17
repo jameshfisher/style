@@ -1,3 +1,5 @@
+// Put everything here that doesn't actually generate CSS directly
+
 vendor(prop, args)
   -webkit-{prop} args
   -moz-{prop} args
@@ -5,3 +7,8 @@ vendor(prop, args)
 
 column-count(count)
   vendor('column-count', count)
+
+
+// 10.5pt =  3.70416667 mm = 1em
+
+bodyem = 3.70416667 // font height in mm, so we can express measurements in mm

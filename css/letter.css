@@ -1,3 +1,4 @@
+@import "./common.css";
 body{width:40.494938096292515em;margin:0 auto}
 h1{font-size:1em}
 .wrap{overflow:auto}
@@ -6,4 +7,3 @@ h1{font-size:1em}
 div.addresses{overflow:auto}
 div.recipientAddress{width:13.498312698764172em;float:left}
 div.senderAddress{width:13.498312698764172em;float:right}
-
