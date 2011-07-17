@@ -5,6 +5,7 @@ ol,ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
 table{border-collapse:collapse;border-spacing:0}
+@import(http://fonts.googleapis.com/css?family=Crimson+Text&v2);
 @media print{body{font-size:10.5pt}
 .screen{display:none}
 @page{margin:2cm 2cm 0 2cm}
