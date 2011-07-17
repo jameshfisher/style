@@ -1,3 +1,17 @@
+vendor(prop, args)
+  -webkit-{prop} args
+  -moz-{prop} args
+  {prop} args
+
+column-count(count)
+  vendor('column-count', count)
+
+// 10.5pt =  3.70416667 mm = 1em
+
+bodyem = 3.70416667 // font height in mm, so we can express measurements in mm
+
+
+
 
 @media print
   .screen
@@ -74,3 +88,77 @@ a#pdf
 
 a#pdf:hover
   opacity 1
+
+
+
+
+
+body section.content
+  font-size 1em
+  width unit((170/bodyem), em)
+  line-height unit((5/bodyem), em)
+  margin 0 auto
+  padding unit((20/bodyem), em) 0
+
+@media print
+  body section.content
+    padding-top 0
+
+h1
+  font-size unit(5.64444444 / bodyem, em) // 16pts = 5.64444444mm
+  // 1.52380952 times larger
+  padding unit(1.52380952*0.5/bodyem, em) 0
+  line-height unit((1.52380952*1/bodyem), em)
+
+h2
+  font-size unit((4.93888889/bodyem), em) // 14pts = 4.93888889mm
+  // 1.33333333 times larger
+  margin unit((1.33333333*7.5/bodyem), em) 0 unit((1.33333333*2.5/bodyem), em) 0
+  line-height unit((1.33333333*10/bodyem), em)
+
+td, th
+  padding unit((1.25/bodyem), em) 1em unit((1.25/bodyem), em) 0
+
+p
+  margin unit((1.25/bodyem), em) 0
+
+
+table.firstColFixedWidth td:first-child, table.firstColFixedWidth th:first-child
+  width unit((25/bodyem), em)
+
+table.aLevelTable td:first-child, table.aLevelTable th:first-child
+  width unit((10/bodyem), em)
+
+ul li
+  list-style-type disc
+  margin unit((1.25/bodyem), em) 0
+
+ul.listTable li
+  float left
+  width 33%
+  height unit((5/bodyem), em)
+  text-align center
+  list-style-type none
+
+ul.inside
+  margin-left unit((4/bodyem), em)
+
+
+p.profile
+  margin-top unit((5/bodyem), em)
+
+div.endNote
+  font-style italic
+  text-align center
+  margin unit((20/bodyem), em) 0
+
+div.addresses
+  overflow auto
+
+div.recipientAddress
+  width unit((50/bodyem), em)
+  float left
+
+div.senderAddress
+  width unit((50/bodyem), em)
+  float right

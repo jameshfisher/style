@@ -10,11 +10,11 @@ css/reset.css: src/styl/reset.styl
 css/common.css: src/styl/common.styl
 	$(TOCSS) < $^ > $@
 
-css/print.css: src/styl/print.styl src/styl/cv.styl
-	cat $^ | $(TOCSS) > $@
+css/print.css: src/styl/print.styl
+	$(TOCSS) < $^ > $@
 
-css/screen.css: src/styl/screen.styl src/styl/cv.styl
-	cat $^ | $(TOCSS) > $@
+css/screen.css: src/styl/screen.styl
+	$(TOCSS) < $^ > $@
 
 clean:
 	rm -f $(CSSES)

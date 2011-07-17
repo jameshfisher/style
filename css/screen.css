@@ -1,17 +1,2 @@
-body section.content{font-size:16px;width:734px;line-height:21px;margin:0 auto;padding:86px 0}
-@media print{body section.content{padding-top:0}
-}h1{font-size:24px;padding:21px 0 21px 0;line-height:43px}
-h2{font-size:21px;margin:32px 0 10px 0;line-height:43px}
-td,th{padding:5px 1em 5px 0}
-p{margin:5px 0}
-table.firstColFixedWidth td:first-child,table.firstColFixedWidth th:first-child{width:107px}
-table.aLevelTable td:first-child,table.aLevelTable th:first-child{width:43px}
-ul li{list-style-type:disc;margin:5px 0}
-ul.listTable li{float:left;width:33%;height:21px;text-align:center;list-style-type:none}
-ul.inside{margin-left:17px}
-p.profile{margin-top:21px}
-div.endNote{font-style:italic;text-align:center;margin:86px 0}
-div.addresses{overflow:auto}
-div.recipientAddress{width:215px;float:left}
-div.senderAddress{width:215px;float:right}
+body{font-size:16px}
 
