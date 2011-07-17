@@ -1,10 +1,10 @@
 @import "./common.css";
 section.letter{width:40.494938096292515em;margin:0 auto}
-h1{font-size:1em}
+h1{font-size:1em;margin-top:1.3498312698764172em}
 .wrap{overflow:auto}
 .referee{float:left;margin-right:1em}
 .close .signoff,.close .name{margin-top:5em}
-div.addresses{overflow:auto;margin-top:10.798650159011338em}
-div.recipientAddress{float:left}
+div.addresses{overflow:auto;padding-top:2.6996625397528344em}
+div.recipientAddress{float:left;clear:both}
 div.senderAddress{float:right;clear:both}
 div.sentDate{margin-top:1.3498312698764172em}
