@@ -107,14 +107,14 @@ body section.content
 h1
   font-size unit((5.64444444/bodyem), em) // 16pts = 5.64444444mm
   // 1.52380952 times larger
-  padding unit(1.52380952*0.5/bodyem, em) 0
-  line-height unit((1.52380952*1/bodyem), em)
+  padding unit(((0.5/bodyem)/1.52380952), em) 0
+  line-height unit(((1/bodyem)/1.52380952), em)
 
 h2
   font-size unit((4.93888889/bodyem), em) // 14pts = 4.93888889mm
   // 1.33333333 times larger
-  margin unit((1.33333333*7.5/bodyem), em) 0 unit((1.33333333*2.5/bodyem), em) 0
-  line-height unit((1.33333333*10/bodyem), em)
+  margin unit(((7.5/bodyem)/1.33333333), em) 0 unit(((2.5/bodyem)/1.33333333), em) 0
+  line-height unit(((10/bodyem)/1.33333333), em)
 
 td, th
   padding unit((1.25/bodyem), em) 1em unit((1.25/bodyem), em) 0

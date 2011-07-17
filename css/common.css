@@ -20,8 +20,8 @@ a#pdf{position:fixed;bottom:.5cm;right:1cm;opacity:.5;-webkit-transition:opacity
 a#pdf:hover{opacity:1}
 body section.content{font-size:1em;width:45.89426317579819em;line-height:1.3498312698764172em;margin:0 auto;padding:5.399325079505669em 0}
 @media print{body section.content{padding-top:0}
-}h1{font-size:1.5238095212384166em;padding:.76190476em 0;line-height:.4113771478862747em}
-h2{font-size:1.3333333324334458em;margin:2.6996625330036785em 0 .8998875110012261em 0;line-height:3.5995500440049044em}
+}h1{font-size:1.5238095212384166em;padding:.13498312698764173em 0;line-height:.26996625397528345em}
+h2{font-size:1.3333333324334458em;margin:2.024746904814626em 0 .6749156349382086em 0;line-height:2.6996625397528344em}
 td,th{padding:.3374578174691043em 1em .3374578174691043em 0}
 p{margin:.3374578174691043em 0}
 table.firstColFixedWidth td:first-child,table.firstColFixedWidth th:first-child{width:6.749156349382086em}
