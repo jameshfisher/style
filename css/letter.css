@@ -6,5 +6,5 @@ h1{font-size:1em}
 .close .signoff,.close .name{margin-top:5em}
 div.addresses{overflow:auto;margin-top:10.798650159011338em}
 div.recipientAddress{float:left}
-div.senderAddress{float:right}
+div.senderAddress{float:right;clear:both}
 div.sentDate{margin-top:1.3498312698764172em}
