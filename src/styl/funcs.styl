@@ -3,11 +3,26 @@
 vendor(prop, args)
   -webkit-{prop} args
   -moz-{prop} args
+  -o-{prop} args
   {prop} args
 
 column-count(count)
   vendor('column-count', count)
 
+transition(args)
+  vendor('transition', args)
+
+transition-property(args)
+  vendor('transition-property', args)
+
+transition-duration(args)
+  vendor('transition-duration', args)
+
+transition-timing-function(args)
+  vendor('transition-timing-function', args)
+
+transition-delay(args)
+  vendor('transition-delay', args)
 
 // 10.5pt =  3.70416667 mm = 1em
 
