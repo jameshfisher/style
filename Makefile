@@ -1,4 +1,4 @@
-CSSES = css/common.css css/letter.css css/cv.css
+CSSES = css/common.css css/letter.css css/cv.css 
 
 TOCSS = stylus --compress
 
