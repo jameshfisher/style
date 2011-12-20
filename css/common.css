@@ -11,7 +11,7 @@ table{border-collapse:collapse;border-spacing:0}
 @page{margin:2cm 2cm 0 2cm}
 }@media screen{body{font-size:16px}
 .print{display:none}
-}body{margin:0;font-family:"Minion Pro","Crimson"}
+}body{margin:0;font-family:"Minion Pro","Crimson"; text-rendering: optimizeLegibility}
 em,i{font-style:italic}
 q:before{content:"‘"}
 q:after{content:"’"}
